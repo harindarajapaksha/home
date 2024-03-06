@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
+    <title>Senior Data Scientist - Your Name</title>
     <style>
-        /* You can add your CSS styles here */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -18,59 +17,71 @@
             padding: 20px;
             text-align: center;
         }
-        h1 {
-            margin-top: 0;
+        h1, h2, h3 {
+            margin: 0;
         }
-        nav {
-            background-color: #444;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
             padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-header {
+            margin-bottom: 10px;
+        }
+        .section-content {
+            line-height: 1.6;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Your Name</h1>
-    <p>Welcome to My Personal Website</p>
+    <h1>Senior Data Scientist - Your Name</h1>
 </header>
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="contact.html">Contact</a>
-</nav>
+<div class="container">
+    <section class="section">
+        <div class="section-header">
+            <h2>About Me</h2>
+        </div>
+        <div class="section-content">
+            <p>Introduce yourself here. Talk about your experience, skills, and passion for data science.</p>
+        </div>
+    </section>
 
-<section>
-    <h2>About Me</h2>
-    <p>This is where you can introduce yourself and talk about your interests, skills, and experiences.</p>
-</section>
+    <section class="section">
+        <div class="section-header">
+            <h2>Experience</h2>
+        </div>
+        <div class="section-content">
+            <p>Detail your relevant work experience as a data scientist.</p>
+        </div>
+    </section>
 
-<footer>
-    <p>&copy; 2024 Your Name. All rights reserved.</p>
-</footer>
+    <section class="section">
+        <div class="section-header">
+            <h2>Skills</h2>
+        </div>
+        <div class="section-content">
+            <p>List your key skills in data science, such as programming languages, machine learning techniques, etc.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-header">
+            <h2>Contact Me</h2>
+        </div>
+        <div class="section-content">
+            <p>You can contact me at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
+        </div>
+    </section>
+</div>
 
 </body>
 </html>
